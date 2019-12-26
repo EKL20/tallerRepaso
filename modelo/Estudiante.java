@@ -32,9 +32,26 @@ public class Estudiante {
     }
     public Curso buscarCurso(String codigoCurso){
         Curso curso;
-        curso = new Curso(String cod, String nom, int cred);
+       // curso = new Curso(String cod, String nom, int cred);
 
         return curso;
     }
+
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+    public Curso getCurso1(){return Curso;}
+    public Curso getCurso2(){return Curso;}
+    public Curso getCurso3(){return Curso;}
+    public Curso getCurso4(){return Curso;}
+    public Curso getCurso5(){return Curso;}
 
 }
